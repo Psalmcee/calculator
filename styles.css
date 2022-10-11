@@ -1,0 +1,38 @@
+.container { 
+    width: 350px;
+    height: 600px;
+    border: 2px black solid;
+
+}
+
+#display {
+    
+    width: 350px;
+    height: 200px;
+    background: thistle;
+}
+
+
+.first-row, .second-row, .third-row, .fourth-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#zero, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine, #plus, #minus, #divide, #multiply, #point, #percent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85px;
+    height: 60px;
+    border: 1px solid;
+    margin: auto;
+    padding: 6px;
+    font-size: 50px;
+} 
+
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+}
