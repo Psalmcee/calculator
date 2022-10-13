@@ -6,10 +6,15 @@
 }
 
 #display {
-    
     width: 350px;
     height: 200px;
     background: thistle;
+    font-size: 90px;
+}
+
+#display-result {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 
@@ -32,7 +37,7 @@
 
 #result {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-self: center;
+    align-self: center;
     font-size: 90px;
 }
